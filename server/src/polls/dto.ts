@@ -12,16 +12,16 @@ export class CreatePollDto {
 
   @IsString()
   @Length(1, 25)
-  name: string
+  name: string;
 }
 
 
 export class JoinPollDto {
   @IsString()
   @Length(6, 6)
-  pollId: string
+  pollId: string;
 
   @IsString()
   @Length(1, 25)
-  name: string
+  name: string;
 }
